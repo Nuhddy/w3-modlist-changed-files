@@ -1,6 +1,5 @@
 import os
 
-# GAME_PATH = "C://Games//GOG//The Witcher 3 Wild Hunt GOTY//mods"
 GAME_PATH = "/mnt/c/Games/GOG/The Witcher 3 Wild Hunt GOTY/mods"
 
 if __name__ == "__main__":
@@ -12,7 +11,7 @@ if __name__ == "__main__":
 
     for mod in mod_list:
         script_list = []
-        script_path = os.path.join(GAME_PATH, mod, "content/scripts")
+        script_path = os.path.join(GAME_PATH, mod, "content")
         for root, dirs, files in os.walk(script_path):
             for file in files:
                 script_list.append(os.path.relpath(os.path.join(root, file), start=script_path))
