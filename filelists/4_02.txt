@@ -1,0 +1,6 @@
+scripts/engine/game.ws
+scripts/game/behavior_tree/tasks/rider/btBaseRidingManager.ws
+scripts/game/gameplay/effects/effects/mutagens/mutagen24.ws
+scripts/game/gui/main_menu/ingameMenu.ws
+scripts/game/gui/main_menu/ingamemenu/igmOptions.ws
+scripts/game/vehicles/horse/horseManager.ws

@@ -1,0 +1,16 @@
+scripts/engine/game.ws
+scripts/game/actor.ws
+scripts/game/behavior_tree/tasks/combat/btTaskShoot.ws
+scripts/game/explorations/exploration_movement_system/exploration_substates/explorationStateJump.ws
+scripts/game/gameplay/damage/damageManagerProcessor.ws
+scripts/game/gameplay/effects/effects/skill/axiiGuardMe.ws
+scripts/game/gameplay/items/swords/witcherSword.ws
+scripts/game/gameplay/syncManager.ws
+scripts/game/gui/hud/hud.ws
+scripts/game/gui/main_menu/ingameMenu.ws
+scripts/game/gui/menus/journalQuestMenu.ws
+scripts/game/gui/r4guimanager.ws
+scripts/game/player/playerInput.ws
+scripts/game/player/playerWitcher.ws
+scripts/game/projectile/arrowProjectile.ws
+scripts/game/temp/dog.ws
